@@ -1,0 +1,35 @@
+.header{
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+    background: rgb(134, 49, 26);
+}
+.upper{
+    height:70%;
+    background-color: rgb(131, 83, 69);
+}
+.lower{
+    height:30%;
+    margin-top: 10px;
+    background-color: rgb(98, 33, 14);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+}
+.left{
+    width: 50%;
+    background: rgb(91, 100, 91);
+}
+.middle{
+    display: flex;
+    height: 350px;
+    margin-top: 10px;
+}
+.footer{
+    height: 150px;
+    margin-top: 10px;
+    background: rgb(65, 33, 139);
+}

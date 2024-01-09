@@ -1,0 +1,45 @@
+.main{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color:red;
+    margin: 0 auto;
+    width: 95rem;
+}
+.upper{
+    height: 50%;
+    width: 100%;
+    font-size: 40px;
+    padding-left: 15px;
+    display: flex;
+}
+.left p{
+    font-size: 140%;
+}
+.right img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+.upper>div{
+    width: 50%;
+    color :white;    
+}
+.lower>div{
+    width: 33%;
+    padding: 20px;
+    color: rgb(223, 95, 95);
+    font-size: 20px;
+    background-color: rgba(150, 20,0, 0.93);
+}
+.b{
+    margin: 0 10px;
+}
+.lower p{
+    color: aliceblue;
+    font-size: 130%;
+}
+.lower{
+    display: flex;
+    height: 50%;
+}

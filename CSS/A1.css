@@ -1,0 +1,38 @@
+.head{
+    height: 150px;
+    margin-top: 10px;
+    background: rgb(60, 8, 232);
+}
+.up{
+    height:70%;
+    background-color: rgb(89, 152, 240);
+}
+.low{
+    height:30%;
+    margin-top: 10px;
+    background-color: rgb(150, 151, 239);
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+}
+.l{
+    width: 50%;
+    background: rgb(38, 144, 138);
+}
+.mid{
+    display: flex;
+    height: 350px;
+    margin-top: 10px;
+}
+.foot{
+    height: 150px;
+    margin-top: 10px;
+    background: rgb(57, 190, 93);
+}
+.main{
+    width: 95rem;  
+    margin: 0 auto;
+}
