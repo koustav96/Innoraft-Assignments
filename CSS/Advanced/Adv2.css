@@ -116,7 +116,6 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
- 
 }
 .body3-text{
     color: aliceblue;
@@ -140,7 +139,8 @@ ul{
     margin: 10px;
     height: 100%;
     padding: 15px;
-    width: 491px;
+    width: 691px;
+    background-color: blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .image-container{
@@ -233,24 +233,30 @@ ul{
 .body6{
     background-color: rgb(216, 224, 231);
     /* padding: 70px 90px; */
+    position: relative;
 }
 .body6-text{
     text-align: center;
-    padding: 70px 90px 0px 90px;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    padding: 70px 50px;
 }
 .card6{
     display: flex;
-    justify-content: space-between;
-    padding: 70px 90px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sa+9ns MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .card{
     background-color: rgb(255, 255, 255);
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px 0 20px 0;
+    margin-left: 40px;
+    margin-right: 40px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.322);
     border-radius: 5px;
-    width: 350px;
+    width: 490px;
 }
 .big-text{
     font-size: 30px;
@@ -274,30 +280,36 @@ ul{
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    color: aliceblue;
+    /* text-align: center; */
+    position: relative;
+    font-size: 20px;
 }
 .body7-elements-upper{
     display: flex;
     color: aliceblue;
     padding: 70px 90px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .body7-elements-upper-left{
     color: aliceblue;
     position: relative;
+    margin-right: 794px;
 }
 .body7-elements-upper-right{
     display: flex;
+    /* margin-bottom: 250px; */
 }
 .body7-elements-upper-right .image-container{
     border-radius: 0;
-    padding: 25px;
+    padding: 25px 25px 25px 25px;
     margin: 1px;
     mix-blend-mode: hard-light;
     background-color: rgb(91, 125, 157);
 }
 .body7-elements-upper-right .image-container img{
     filter: brightness(0) invert(1) grayscale(1);
-    height: 24px;
+    height: 20px;
     width: 15px;
 }
 .body7-elements-upper-right .image-container:hover{
@@ -307,7 +319,7 @@ ul{
 .body7-elements-lower{
     display: flex;
     padding: 70px 90px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .body7-elements-lower img{
     height: 100px;
@@ -320,6 +332,7 @@ ul{
 }
 .body7-icon{
     text-align: center;
+    width:670px;
 }
 .body8{
     background-color: rgb(228, 234, 239);
