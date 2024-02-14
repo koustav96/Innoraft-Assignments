@@ -455,6 +455,7 @@ button:hover{
     background-color: rgb(3, 215, 215);
     border: 0px;
     cursor: pointer;
+    
 }
 .submt input:hover{
     background-color: rgb(10, 20, 100);
